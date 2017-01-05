@@ -28,7 +28,9 @@ public class FileWritter {
     }
 
     public void writeRecords() {
-        f.format("%s\t%s\t%s\t%s", "United Kingdom|","IBM|","Software Engineer|","£23,000");
+        f.format("%s\t%s\t%s\t%s", "United Kingdom|","IBM|","Software Engineer|","£23,000\n");
+        f.format("%s\t%s\t%s\t%s", "United Kingdom|","MagenTys|","Software Engineer|","£23,000\n");
+        f.format("%s\t%s\t%s\t%s", "United Kingdom|","Skype|","Software Engineer|","£21,000");
     }
 
     public void closeFile() {
